@@ -1,0 +1,365 @@
+@media (max-width: 1000px) {
+  .navbar {
+    background-color: #1e1e1e !important;
+  }
+  .navbar img {
+    margin-left: 0px !important;
+  }
+  .navbar .nav-item a {
+    color: black !important;
+  }
+  .header-text .control-open .open hr {
+    width: 65px;
+    border: 1px solid #fcf9f9;
+  }
+  .header-text .control-open .open p {
+    font-size: 15px !important;
+  }
+  .header-text .alamat {
+    font-size: 15px !important;
+  }
+  .section-about {
+    margin-top: 100px;
+  }
+  .section-about .about-content {
+    padding-top: 0px !important;
+  }
+  .section-menu h3 {
+    font-size: 30px !important;
+  }
+  .section-menu .menu-wrap p {
+    margin-top: -6px !important;
+  }
+  .section-location h3 {
+    font-size: 30px !important;
+  }
+  .section-location .location-content {
+    padding-top: 0px !important;
+  }
+  .interaction-bg {
+    margin-top: 100px !important;
+  }
+  .section-interaction .text-box {
+    margin: auto !important;
+    margin-top: -100px !important;
+  }
+}
+
+body {
+  z-index: 0;
+}
+
+.navbar {
+  z-index: 1;
+}
+
+.navbar img {
+  margin-left: 35px;
+  height: 55px;
+}
+
+.navbar .nav-item {
+  margin-right: 30px;
+}
+
+.navbar .nav-item a {
+  font-family: Assistant;
+  font-size: 20px;
+  text-align: left;
+  color: #fafafa !important;
+}
+
+.navbar .nav-item a:hover {
+  font-weight: 600;
+}
+
+.header {
+  margin-top: -81px;
+  background: url("../images/bg@2x.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+.header .header-text h1 {
+  margin-top: 200px;
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-size: 80px;
+  letter-spacing: 0.06em;
+  color: #fcf9f9;
+}
+
+.header .header-text p {
+  font-family: "Assistant", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #fcf9f9;
+}
+
+.header .header-text hr {
+  width: 65px;
+  height: 0px;
+  background: transparent;
+  border: 3px solid #fcf9f9;
+}
+
+.header .header-text .control-open {
+  margin-top: 35px;
+}
+
+.header .header-text .control-open .open hr,
+.header .header-text .control-open .open p {
+  float: left;
+  margin-right: 10px;
+}
+
+.header .header-text .control-open .open p {
+  font-family: "Assistant", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  letter-spacing: 0.05em;
+  color: #fcf9f9;
+}
+
+.header .header-text .alamat {
+  margin-top: -20px;
+  font-family: "Assistant", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #fcf9f9;
+}
+
+.header .btn-selengkapnya {
+  margin-top: 40px;
+  width: 202px;
+  height: 52px;
+  background: transparent;
+  border: 3px solid #fefbfb;
+  font-family: "Assistant", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fefbfb;
+}
+
+.header .btn-selengkapnya:hover {
+  border: 3px solid none;
+  background-color: #fefbfb;
+  color: #0a2f34;
+}
+
+.section-about {
+  margin-top: 100px;
+}
+
+.section-about h3 {
+  font-family: "Assistant", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #0a2f34;
+}
+
+.section-about hr {
+  margin-top: -5px;
+  height: 0px;
+  background: transparent;
+  border: 2px solid #0a2f34;
+}
+
+.section-about p {
+  font-family: "Assistant", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #0a2f34;
+}
+
+.section-about .about-content {
+  padding-top: 300px;
+}
+
+.section-about .about-content p {
+  font-family: "Assistant", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #0a2f34;
+}
+
+.section-about .social-media {
+  margin-top: -5px;
+}
+
+.section-about .social-media a {
+  text-decoration: none;
+}
+
+.section-about .social-media img {
+  margin-right: 10px;
+  height: 30px;
+}
+
+.section-menu {
+  margin-top: 100px;
+}
+
+.section-menu h3 {
+  font-family: "Assistant", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #0a2f34;
+}
+
+.section-menu hr {
+  margin-top: -5px;
+  height: 0px;
+  background: transparent;
+  border: 2px solid #0a2f34;
+}
+
+.section-menu .menu-wrap {
+  background-color: #fcf9f9;
+}
+
+.section-menu .menu-wrap p {
+  font-family: "Assistant", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  letter-spacing: 0.06em;
+  color: #0a2f34;
+  margin-top: 190px;
+  margin-right: 45px;
+  margin-left: 45px;
+}
+
+.section-menu .menu-wrap img {
+  max-width: 380px;
+}
+
+.section-location {
+  margin-top: 100px;
+}
+
+.section-location h3 {
+  font-family: "Assistant", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #0a2f34;
+}
+
+.section-location hr {
+  margin-top: -5px;
+  height: 0px;
+  background: transparent;
+  border: 2px solid #0a2f34;
+}
+
+.section-location .location-content {
+  padding-top: 300px;
+}
+
+.section-location .location-content p {
+  font-family: "Assistant", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #0a2f34;
+}
+
+.section-location .btn-follow {
+  width: 260px;
+  height: 52px;
+  background: #fff;
+  border: 3px solid #0a5964;
+  font-family: "Assistant", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #0a5964;
+}
+
+.section-location .btn-follow:hover {
+  background-color: #0a5964;
+  color: #fff;
+}
+
+.interaction-bg {
+  margin-top: 218px;
+  height: 407px;
+  background: #f1f1f1;
+}
+
+.section-interaction img {
+  margin-top: -480px;
+}
+
+.section-interaction .text-box {
+  width: 352px;
+  height: 145px;
+  background: #fff;
+  font-family: "Assistant", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0.06em;
+  color: #0a2f34;
+  padding: 33px 71px;
+  margin-top: -200px;
+  margin-left: -100px;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: #fcf9f9;
+  padding-top: 35px;
+}
+
+footer .foot-image img {
+  max-height: 40px;
+}
+
+footer .foot-image h5 {
+  margin-top: 5px;
+  margin-left: 10px;
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #0a2f34;
+}
+
+footer img {
+  max-height: 25px;
+  margin-right: 5px;
+}
+
+footer h5 {
+  font-family: "Assistant", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #0a2f34;
+}
+
+footer p {
+  margin-top: 18px;
+  font-family: "Assistant", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: #0a2f34;
+}
+
+footer a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
